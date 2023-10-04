@@ -1,3 +1,3 @@
 # SpiterAnticheat
-![](assets/Bottom_up.svg)
+![](libs/main.svg)
 
