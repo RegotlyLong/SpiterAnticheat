@@ -6,7 +6,7 @@
 #   Enabled: Whether or not the check is enabled.
 #   Display: Display name of the check.
 #   Cancel: Whether or not the check should cancel actions.
-#   PunishVL: The amount of violations needed to be punished.
+#   Punish-VL: The amount of violations needed to be punished.
 #   Commands: The commands to be executed when the player is punished.
 #  
 # Placeholders:
