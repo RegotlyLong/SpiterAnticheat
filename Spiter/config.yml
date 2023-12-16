@@ -1,0 +1,185 @@
+# Spiter AntiCheat - Config
+Setting:
+  Bungeemode: false
+  Bot:
+    Spawn:
+      distance: 1.8
+      heights: 3.0
+      duration: 10
+      invisible: true
+  NotSendPacket:
+    Trs-C0f: false
+  Check-bypass: false
+  Ghostblockcheck:
+    Enabled: true
+    Ghostblocksetback: true
+  Phase:
+    setback: true
+  Alerts:
+    Experimental-VL-Add: true
+    not-alerts-inLag: true
+    Allow-Developmental: true
+    join-on: true
+    Reset-VL-On-Max: true
+    CoolDown: 5.0
+    JoinBypass: 5000
+    vlreset-time (s): 300
+    Survival-check: true
+    Creating-check: false
+    Bystander-detection: false
+    Command: /tp %player%
+    Debug-Color: '&7'
+    Experimental: '&aΔ'
+    Developmental: '&c⚠'
+    ConnectionHigh: '&4⥱'
+    Display:
+      FirstBar: '&8['
+      LastBar: '&8]'
+      FillBar: '&c|'
+      EmptyBar: '&7|'
+  PUNISHMENTS:
+    Enabled: false
+  ForceBan:
+    Commands:
+    - kick %player% &7[&bSpiter&7] &CUnfair Advantage
+CheckSetting:
+  Reach:
+    Level-(1,2,3,4): 3
+Database:
+  abc: 当前数据库还没有完工!
+  enable: false
+  host: INSERT_host
+  port: 12345
+  auth: auth
+  authentication: false
+  name: Spiter
+  password: Spiter
+  Collection:
+    Logs: Logs
+Command:
+  Spiter:
+    Help-Command-Customize-Enable: false
+    Help-Command-Customize:
+    - ''
+    - '&e| &7/spiter gui &8| &fOpens GUI.'
+    - '&e| &7/alerts &8| &fToggle alerts.'
+    - '&e| &7/spiter alerts &8| &fToggle alerts.'
+    - '&e| &7/spiter user (player) &8| &fInformation about the player.'
+    - '&e| &7/spiter forceban (player) &8| &fPunishes the player.'
+    - '&e| &7/spiter menu &8| &fOpens GUI.'
+    - '&e| &7/spiter printlogs &8| &fShows the logs of a player.'
+    - '&e| &7/spiter crash2 &8| &fCrashes the player.'
+    - '&e| &7/spiter logs (player) &8| &fShows the logs of a player.'
+    - '&e| &7/spiter reload &8| &fReloads configuration.'
+    Name: Spiter
+    commands:
+    - spiter
+    commandtabName: tab
+    commandtab:
+    - aac
+    - grim
+    - buzz
+Spiter:
+  Description: Securing fair play, one check at a time with Spiter AntiCheat
+  Version: '3.1'
+  Website: spiter.cc
+  Authors:
+  - Regotly
+System:
+  Alerts-Logs-In-Console: true
+  Logs-Use-Temp-File: true
+  API: false
+  Haste-Server: paste.md-5.net
+Freeze:
+  message-enable: true
+  player-quit-command:
+    enable: true
+    command:
+    - 'kick %player% %prefix%&cInvalid client brand: &7%brand%'
+OPTIONS:
+  Processing:
+    Better-Buffer: true
+Check:
+  Brand:
+    Enabled: true
+    Command: /tp %player%
+  Client:
+    Detect-Vape: true
+    Detect-Lite: true
+    Blocker-Enabled: false
+    Blocked-Brands:
+    - CM-Pack
+    - Blazing-Pack
+    - Crystalware
+    - Vivecraft
+Message:
+  Check:
+    Brand:
+      Message: '%prefix%&b%player% &7joined using &7[&e%brand%&7]&7.'
+      Hover:
+      - '&fIp: &b%ip%'
+      - '&fVersion: &b%version%'
+      - ' '
+      - '&7Click to teleport to &b%player%'
+    Client:
+      Blocker-Command:
+      - 'kick %player% %prefix%&cInvalid client brand: &7%brand%'
+  Alerts:
+    Layout: '%prefix%&f%player% &7failed &f%checkName%&7(&f%checkType%&7) &c%bar%
+      %tags%'
+    Hover:
+    - '&f%description%'
+    - ''
+    - '%debug%'
+    - ''
+    - '&7(&fPing: &7%ping%  &fTps: &a%tps% &f(V%version%)&7) &a(Click to teleport)'
+  Verbose: '&7[&bVerbose&7] &f%player% &7| &r&f%checkName% &f%checkType% &7| &f%buffer%%'
+  PUNISHMENTS:
+    Message:
+    - '&7&m--------------------------------------------------'
+    - '&c&l✗ &b&lSpiter Cheat Detection'
+    - '&c&l✗ %prefix%&7has removed %player% &7from the network due to cheating.'
+    - '&7&m--------------------------------------------------'
+  BROADCAST:
+    Message:
+    - '&7&m--------------------------------------------------'
+    - '&c&l✗ &b&lSpiter Cheat Detection'
+    - '%prefix%&bSpiter &7has banned &b%bans% &7players in the last &b15 &7minutes.'
+    - '&7&m--------------------------------------------------'
+  Network-settings:
+    kick-message: 'java.net.IOException Connection timed out: no further information'
+    transaction-delay: '&c%player% &7Skipped the trading package.'
+    cancel-keepalives-alert: '&c%player% &7cancelled keepalive packets with total
+      of &a%invalid% / %total%'
+    cancel-transactions-alert: '&c%player% &7cancelled transaction packets with total
+      of &a%invalid% / %total%'
+    own-keepalives-alert: '&c%player% &7sent skip keepalives &7total of &a%invalid%
+      / %total%'
+    own-transactions-alert: '&c%player% &7sent skip transactions &7total of &a%invalid%
+      / %total%'
+    cancel-and-own-kick-message: 'java.net.IOException Connection timed out: no further
+      information'
+    wrong-spoof-kick-message: Timed out.
+  server-lag-protection:
+    warning-message: '%prefix% &cThe Server is Lag?'
+    max-tick-length: 120
+  freeze:
+    getbanned-message: '%prefix% &c%player% &f被Staff查端但退出了游戏所以被封禁.'
+    sendplayer-message: '&f请加StaffQQ xxxxxxx 进行查端 - 退出游戏将封禁'
+BROADCAST:
+  Enabled: true
+  Reset-Counter: true
+  Spoof:
+    Enabled: false
+    Min: 5
+    Max: 35
+  Time: 18000
+  Sound: NONE
+Network-settings:
+  enabled: false
+  SpoofPacket: false
+  DelayPacket: false
+Option:
+  Check:
+    autoblockcancel: false
+    cancel-highversion-autoblock: false

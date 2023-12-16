@@ -1,0 +1,26 @@
+# Spiter AntiCheat - Message
+Messages:
+  Prefix: '&7[&bSpiter&7] &f'
+  'Yes': '&aYes'
+  'No': '&cNo'
+  Color:
+    A: '&f'
+    B: '&b'
+  Permission: '%prefix%&cYou do not have enough permissions to execute this command!'
+  Command:
+    Usage: '%prefix%&cInvalid arguments. Usage: &f%usage%'
+    Invalid-Argument: '%prefix%&cThe target was not found or offline.'
+    Player-Only: '%prefix%&cThis command is only for players.'
+    Console-Only: '%prefix%&cThis command is only for the console.'
+    Help:
+      Header:
+      - ' '
+      - '&bCommands for Spiter Anticheat &f&n%version%&f:'
+      - ' '
+      Footer:
+      - ' '
+      Format: ' &e| &7/%name% %label% %args% &8| &f%description%'
+  Alerts-Enabled: '%prefix%&bAlerts have been enabled.'
+  Alerts-Disabled: '%prefix%&cAlerts have been disabled.'
+  Verbose-Enabled: '%prefix%&bVerbose have been enabled.'
+  Verbose-Disabled: '%prefix%&cVerbose have been disabled.'
