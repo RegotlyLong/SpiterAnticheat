@@ -1,14 +1,17 @@
 # Spiter AntiCheat - Config
 Setting:
   Bungeemode: false
+  #可能增加cpu计算
   Bot:
     Spawn:
       distance: 1.8
       heights: 3.0
       duration: 10
       invisible: true
+      
   NotSendPacket:
     Trs-C0f: false
+    #可能增加网络io
   Check-bypass: false
   Ghostblockcheck:
     Enabled: true
@@ -18,15 +21,21 @@ Setting:
   Alerts:
     Experimental-VL-Add: true
     not-alerts-inLag: true
+    #关闭可能增加误报
     Allow-Developmental: true
     join-on: true
+    #加入开启alerts
     Reset-VL-On-Max: true
+    #是否在vl满的时候清除
     CoolDown: 5.0
     JoinBypass: 5000
     vlreset-time (s): 300
     Survival-check: true
+    #是否开启生存模式检查
     Creating-check: false
+    #是否开启创造模式检查
     Bystander-detection: false
+    #是否开启观察者模式检测
     Command: /tp %player%
     Debug-Color: '&7'
     Experimental: '&aΔ'
@@ -46,19 +55,21 @@ CheckSetting:
   Reach:
     Level-(1,2,3,4): 3
 Database:
-  abc: 当前数据库还没有完工!
   enable: false
-  host: INSERT_host
+  #暂时没有写好，不要开启
+  host: 127.0.0.1
   port: 12345
-  auth: auth
-  authentication: false
-  name: Spiter
-  password: Spiter
+  database: database
+  authentication:
+    enable: false
+    authname: Spiter
+    password: Spiter
   Collection:
-    Logs: Logs
+    Logs: logs
 Command:
   Spiter:
     Help-Command-Customize-Enable: false
+    #是否启用自定义help描述
     Help-Command-Customize:
     - ''
     - '&e| &7/spiter gui &8| &fOpens GUI.'
@@ -72,13 +83,16 @@ Command:
     - '&e| &7/spiter logs (player) &8| &fShows the logs of a player.'
     - '&e| &7/spiter reload &8| &fReloads configuration.'
     Name: Spiter
+    #自定义名称
     commands:
+    #自定义command
     - spiter
     commandtabName: tab
     commandtab:
     - aac
     - grim
     - buzz
+    #假的命令tab
 Spiter:
   Description: Securing fair play, one check at a time with Spiter AntiCheat
   Version: '3.1'
@@ -87,23 +101,30 @@ Spiter:
   - Regotly
 System:
   Alerts-Logs-In-Console: true
+  #可能造成无意义的能耗
   Logs-Use-Temp-File: true
+  #开启可以在同一机器上面看到同一玩家的logs信息
   API: false
+  #是否启用API
   Haste-Server: paste.md-5.net
 Freeze:
   message-enable: true
+  #是否启用冻结命令
   player-quit-command:
     enable: true
     command:
     - 'kick %player% %prefix%&cInvalid client brand: &7%brand%'
 OPTIONS:
   Processing:
+  #不要动
     Better-Buffer: true
 Check:
   Brand:
     Enabled: true
+    #可能增加能耗
     Command: /tp %player%
   Client:
+  #开启客户端检测
     Detect-Vape: true
     Detect-Lite: true
     Blocker-Enabled: false
@@ -176,10 +197,13 @@ BROADCAST:
   Time: 18000
   Sound: NONE
 Network-settings:
+#无需打开，Pingspoof检测
   enabled: false
   SpoofPacket: false
   DelayPacket: false
 Option:
   Check:
     autoblockcancel: false
+    #是否cancel无意义的ab，参考intave
     cancel-highversion-autoblock: false
+    #是否cancel高版本ab，减少高版本ab绕过
