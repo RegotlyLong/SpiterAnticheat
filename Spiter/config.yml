@@ -46,8 +46,13 @@ Setting:
       LastBar: '&8]'
       FillBar: '&c|'
       EmptyBar: '&7|'
-  PUNISHMENTS:
-    Enabled: false
+  Punishment:
+    Message:
+      Enabled: false
+    AllCheck:
+      Enabled: false
+      Commands:
+      - kick %player% &7[&bSpiter&7] &CUnfair Advantage
   ForceBan:
     Commands:
     - kick %player% &7[&bSpiter&7] &CUnfair Advantage
