@@ -32,6 +32,7 @@ checks:
         Reach: 3.0
         threshold: -5.0E-6
         hitbox: true
+      use_self_punishable: true
     Reach (C):
       enabled: true
       Geyser-Check: true
@@ -47,6 +48,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Reach
+      use_self_punishable: true
     Reach (D):
       enabled: true
       Geyser-Check: true
@@ -64,6 +66,7 @@ checks:
       Display: Reach
       Settings:
         Reach: 3.0
+      use_self_punishable: true
   Hitbox:
     Hitbox (A):
       enabled: true
@@ -80,6 +83,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Hitbox
+      use_self_punishable: true
   HitBox:
     HitBox (B):
       enabled: true
@@ -96,6 +100,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: HitBox
+      use_self_punishable: true
   Delay:
     Delay (A):
       enabled: true
@@ -114,6 +119,7 @@ checks:
       Display: Delay
       Settings:
         MaxPlaceBlock: 5
+      use_self_punishable: true
     Delay (B):
       enabled: true
       Geyser-Check: true
@@ -131,6 +137,7 @@ checks:
       Display: Delay
       Settings:
         MaxPlaceBlock: 5
+      use_self_punishable: true
   Autoblock:
     Autoblock (A):
       enabled: true
@@ -147,6 +154,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (B):
       enabled: true
       Geyser-Check: true
@@ -162,6 +170,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (C):
       enabled: true
       Geyser-Check: true
@@ -177,6 +186,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (D):
       enabled: true
       Geyser-Check: true
@@ -192,6 +202,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (E):
       enabled: true
       Geyser-Check: true
@@ -207,6 +218,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (F):
       enabled: true
       Geyser-Check: true
@@ -222,6 +234,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (G):
       enabled: true
       Geyser-Check: true
@@ -237,6 +250,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (H):
       enabled: true
       Geyser-Check: true
@@ -252,6 +266,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (I):
       enabled: true
       Geyser-Check: true
@@ -267,6 +282,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (J):
       enabled: true
       Geyser-Check: true
@@ -282,6 +298,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (K):
       enabled: true
       Geyser-Check: true
@@ -297,6 +314,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (L):
       enabled: true
       Geyser-Check: true
@@ -312,6 +330,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (M):
       enabled: true
       Geyser-Check: true
@@ -327,6 +346,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (N):
       enabled: true
       Geyser-Check: true
@@ -342,6 +362,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (O):
       enabled: true
       Geyser-Check: true
@@ -357,6 +378,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (P):
       enabled: true
       Geyser-Check: true
@@ -372,6 +394,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (Q):
       enabled: true
       Geyser-Check: true
@@ -387,6 +410,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (R):
       enabled: true
       Geyser-Check: true
@@ -402,6 +426,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (S):
       enabled: true
       Geyser-Check: true
@@ -417,6 +442,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (T):
       enabled: true
       Geyser-Check: true
@@ -432,6 +458,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (U):
       enabled: true
       Geyser-Check: true
@@ -447,6 +474,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (V):
       enabled: true
       Geyser-Check: true
@@ -462,6 +490,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (W):
       enabled: true
       Geyser-Check: true
@@ -477,6 +506,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
     Autoblock (X):
       enabled: true
       Geyser-Check: true
@@ -492,6 +522,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Autoblock
+      use_self_punishable: true
   KillAura:
     KillAura (1):
       enabled: true
@@ -508,6 +539,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (A):
       enabled: true
       Geyser-Check: true
@@ -523,6 +555,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (B):
       enabled: true
       Geyser-Check: true
@@ -538,6 +571,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (C):
       enabled: true
       Geyser-Check: true
@@ -553,6 +587,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (D):
       enabled: true
       Geyser-Check: true
@@ -568,6 +603,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (E):
       enabled: true
       Geyser-Check: true
@@ -583,6 +619,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (F):
       enabled: true
       Geyser-Check: true
@@ -598,6 +635,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (G):
       enabled: true
       Geyser-Check: true
@@ -613,6 +651,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (H):
       enabled: true
       Geyser-Check: true
@@ -628,6 +667,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (I):
       enabled: true
       Geyser-Check: true
@@ -643,6 +683,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (J):
       enabled: true
       Geyser-Check: true
@@ -658,6 +699,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (K):
       enabled: true
       Geyser-Check: true
@@ -673,6 +715,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (L):
       enabled: true
       Geyser-Check: true
@@ -688,6 +731,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (M):
       enabled: true
       Geyser-Check: true
@@ -703,6 +747,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (N):
       enabled: true
       Geyser-Check: true
@@ -718,6 +763,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (O):
       enabled: true
       Geyser-Check: true
@@ -733,6 +779,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (P):
       enabled: true
       Geyser-Check: true
@@ -748,6 +795,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (Q):
       enabled: true
       Geyser-Check: true
@@ -763,6 +811,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (S):
       enabled: true
       Geyser-Check: true
@@ -778,6 +827,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (T):
       enabled: true
       Geyser-Check: true
@@ -793,6 +843,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (U):
       enabled: true
       Geyser-Check: true
@@ -808,6 +859,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (V):
       enabled: true
       Geyser-Check: true
@@ -823,6 +875,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (W):
       enabled: true
       Geyser-Check: true
@@ -838,6 +891,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (X):
       enabled: true
       Geyser-Check: true
@@ -853,6 +907,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (Y):
       enabled: true
       Geyser-Check: true
@@ -868,6 +923,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
     KillAura (Z):
       enabled: true
       Geyser-Check: true
@@ -883,6 +939,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+      use_self_punishable: true
   Post:
     Post (A):
       enabled: true
@@ -899,6 +956,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Post
+      use_self_punishable: true
     Post (B):
       enabled: true
       Geyser-Check: true
@@ -914,6 +972,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Post
+      use_self_punishable: true
     Post (C):
       enabled: true
       Geyser-Check: true
@@ -929,6 +988,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Post
+      use_self_punishable: true
     Post (D):
       enabled: true
       Geyser-Check: true
@@ -944,6 +1004,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Post
+      use_self_punishable: true
     Post (E):
       enabled: true
       Geyser-Check: true
@@ -959,6 +1020,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Post
+      use_self_punishable: true
     Post (F):
       enabled: true
       Geyser-Check: true
@@ -974,6 +1036,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Post
+      use_self_punishable: true
     Post (G):
       enabled: true
       Geyser-Check: true
@@ -989,6 +1052,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Post
+      use_self_punishable: true
     Post (H):
       enabled: true
       Geyser-Check: true
@@ -1004,6 +1068,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Post
+      use_self_punishable: true
   Aim:
     Aim (1):
       enabled: true
@@ -1020,6 +1085,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (2):
       enabled: true
       Geyser-Check: true
@@ -1035,6 +1101,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (3):
       enabled: true
       Geyser-Check: true
@@ -1050,6 +1117,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (4):
       enabled: true
       Geyser-Check: true
@@ -1065,6 +1133,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (5):
       enabled: true
       Geyser-Check: true
@@ -1080,6 +1149,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (6):
       enabled: true
       Geyser-Check: true
@@ -1095,6 +1165,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (7):
       enabled: true
       Geyser-Check: true
@@ -1110,6 +1181,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (8):
       enabled: true
       Geyser-Check: true
@@ -1125,6 +1197,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (9):
       enabled: true
       Geyser-Check: true
@@ -1140,6 +1213,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (10):
       enabled: true
       Geyser-Check: true
@@ -1155,6 +1229,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (11):
       enabled: true
       Geyser-Check: true
@@ -1170,6 +1245,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (12):
       enabled: true
       Geyser-Check: true
@@ -1185,6 +1261,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (13):
       enabled: true
       Geyser-Check: true
@@ -1200,6 +1277,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (14):
       enabled: true
       Geyser-Check: true
@@ -1215,6 +1293,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (15):
       enabled: true
       Geyser-Check: true
@@ -1230,6 +1309,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (16):
       enabled: true
       Geyser-Check: true
@@ -1245,6 +1325,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (17):
       enabled: true
       Geyser-Check: true
@@ -1260,6 +1341,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (18):
       enabled: true
       Geyser-Check: true
@@ -1275,6 +1357,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (19):
       enabled: true
       Geyser-Check: true
@@ -1290,6 +1373,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (20):
       enabled: true
       Geyser-Check: true
@@ -1305,6 +1389,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (21):
       enabled: true
       Geyser-Check: true
@@ -1320,6 +1405,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (22):
       enabled: true
       Geyser-Check: true
@@ -1335,6 +1421,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (23):
       enabled: true
       Geyser-Check: true
@@ -1350,6 +1437,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (A):
       enabled: true
       Geyser-Check: true
@@ -1365,6 +1453,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (B):
       enabled: true
       Geyser-Check: true
@@ -1380,6 +1469,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (C):
       enabled: true
       Geyser-Check: true
@@ -1395,6 +1485,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (D):
       enabled: true
       Geyser-Check: true
@@ -1410,6 +1501,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (E):
       enabled: true
       Geyser-Check: true
@@ -1425,6 +1517,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (F):
       enabled: true
       Geyser-Check: true
@@ -1440,6 +1533,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (G):
       enabled: true
       Geyser-Check: true
@@ -1455,6 +1549,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (H):
       enabled: true
       Geyser-Check: true
@@ -1470,6 +1565,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (I):
       enabled: true
       Geyser-Check: true
@@ -1485,6 +1581,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (J):
       enabled: true
       Geyser-Check: true
@@ -1500,6 +1597,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (K):
       enabled: true
       Geyser-Check: true
@@ -1515,6 +1613,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (L):
       enabled: true
       Geyser-Check: true
@@ -1530,6 +1629,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (M):
       enabled: true
       Geyser-Check: true
@@ -1545,6 +1645,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (N):
       enabled: true
       Geyser-Check: true
@@ -1560,6 +1661,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (O):
       enabled: true
       Geyser-Check: true
@@ -1575,6 +1677,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (P):
       enabled: true
       Geyser-Check: true
@@ -1590,6 +1693,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (Q):
       enabled: true
       Geyser-Check: true
@@ -1605,6 +1709,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (R):
       enabled: true
       Geyser-Check: true
@@ -1620,6 +1725,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (S):
       enabled: true
       Geyser-Check: true
@@ -1635,6 +1741,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (T):
       enabled: true
       Geyser-Check: true
@@ -1650,6 +1757,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (U):
       enabled: true
       Geyser-Check: true
@@ -1665,6 +1773,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (V):
       enabled: true
       Geyser-Check: true
@@ -1680,6 +1789,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (W):
       enabled: true
       Geyser-Check: true
@@ -1695,6 +1805,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (X):
       enabled: true
       Geyser-Check: true
@@ -1710,6 +1821,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (Y):
       enabled: true
       Geyser-Check: true
@@ -1725,6 +1837,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
     Aim (Z):
       enabled: true
       Geyser-Check: true
@@ -1740,6 +1853,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
+      use_self_punishable: true
   Groundspoof:
     Groundspoof (A):
       enabled: true
@@ -1756,6 +1870,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Groundspoof
+      use_self_punishable: true
   Improbable:
     Improbable (A):
       enabled: true
@@ -1772,6 +1887,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Improbable
+      use_self_punishable: true
     Improbable (B):
       enabled: true
       Geyser-Check: true
@@ -1787,6 +1903,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Improbable
+      use_self_punishable: true
     Improbable (C):
       enabled: true
       Geyser-Check: true
@@ -1802,6 +1919,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Improbable
+      use_self_punishable: true
   Badpackets:
     Badpackets (A):
       enabled: true
@@ -1818,6 +1936,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (B):
       enabled: true
       Geyser-Check: true
@@ -1833,6 +1952,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (C):
       enabled: true
       Geyser-Check: true
@@ -1848,6 +1968,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (D):
       enabled: true
       Geyser-Check: true
@@ -1863,6 +1984,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (E):
       enabled: true
       Geyser-Check: true
@@ -1878,6 +2000,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (F):
       enabled: true
       Geyser-Check: true
@@ -1893,6 +2016,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (G):
       enabled: true
       Geyser-Check: true
@@ -1908,6 +2032,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (H):
       enabled: true
       Geyser-Check: true
@@ -1923,6 +2048,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (I):
       enabled: true
       Geyser-Check: true
@@ -1938,6 +2064,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (J):
       enabled: true
       Geyser-Check: true
@@ -1953,6 +2080,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (K):
       enabled: true
       Geyser-Check: true
@@ -1968,6 +2096,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (L):
       enabled: true
       Geyser-Check: true
@@ -1983,6 +2112,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (M):
       enabled: true
       Geyser-Check: true
@@ -1998,6 +2128,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (N):
       enabled: true
       Geyser-Check: true
@@ -2013,6 +2144,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (O):
       enabled: true
       Geyser-Check: true
@@ -2028,6 +2160,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (P):
       enabled: true
       Geyser-Check: true
@@ -2043,6 +2176,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (Q):
       enabled: true
       Geyser-Check: true
@@ -2058,6 +2192,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (R):
       enabled: true
       Geyser-Check: true
@@ -2073,6 +2208,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (S):
       enabled: true
       Geyser-Check: true
@@ -2088,6 +2224,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (T):
       enabled: true
       Geyser-Check: true
@@ -2103,6 +2240,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (U):
       enabled: true
       Geyser-Check: true
@@ -2118,6 +2256,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (V):
       enabled: true
       Geyser-Check: true
@@ -2133,6 +2272,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (W):
       enabled: true
       Geyser-Check: true
@@ -2148,6 +2288,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (X):
       enabled: true
       Geyser-Check: true
@@ -2163,6 +2304,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (Y):
       enabled: true
       Geyser-Check: true
@@ -2178,6 +2320,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (Z):
       enabled: true
       Geyser-Check: true
@@ -2193,6 +2336,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (1):
       enabled: true
       Geyser-Check: true
@@ -2208,6 +2352,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (2):
       enabled: true
       Geyser-Check: true
@@ -2223,6 +2368,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (3):
       enabled: true
       Geyser-Check: true
@@ -2238,6 +2384,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (4):
       enabled: true
       Geyser-Check: true
@@ -2253,6 +2400,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (5):
       enabled: true
       Geyser-Check: true
@@ -2268,6 +2416,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (6):
       enabled: true
       Geyser-Check: true
@@ -2283,6 +2432,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (7):
       enabled: true
       Geyser-Check: true
@@ -2298,6 +2448,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (8):
       enabled: true
       Geyser-Check: true
@@ -2313,6 +2464,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (9):
       enabled: true
       Geyser-Check: true
@@ -2328,6 +2480,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (10):
       enabled: true
       Geyser-Check: true
@@ -2343,6 +2496,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (11):
       enabled: true
       Geyser-Check: true
@@ -2358,6 +2512,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (12):
       enabled: true
       Geyser-Check: true
@@ -2373,6 +2528,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (13):
       enabled: true
       Geyser-Check: true
@@ -2388,6 +2544,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (14):
       enabled: true
       Geyser-Check: true
@@ -2403,6 +2560,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (15):
       enabled: true
       Geyser-Check: true
@@ -2418,6 +2576,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (16):
       enabled: true
       Geyser-Check: true
@@ -2433,6 +2592,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (17):
       enabled: true
       Geyser-Check: true
@@ -2448,6 +2608,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (18):
       enabled: true
       Geyser-Check: true
@@ -2463,6 +2624,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (19):
       enabled: true
       Geyser-Check: true
@@ -2478,6 +2640,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (20):
       enabled: true
       Geyser-Check: true
@@ -2493,6 +2656,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (21):
       enabled: true
       Geyser-Check: true
@@ -2508,6 +2672,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (22):
       enabled: true
       Geyser-Check: true
@@ -2523,6 +2688,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (23):
       enabled: true
       Geyser-Check: true
@@ -2538,6 +2704,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (24):
       enabled: true
       Geyser-Check: true
@@ -2553,6 +2720,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (25):
       enabled: true
       Geyser-Check: true
@@ -2568,6 +2736,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (27):
       enabled: true
       Geyser-Check: true
@@ -2583,6 +2752,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (28):
       enabled: true
       Geyser-Check: true
@@ -2598,6 +2768,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (29):
       enabled: true
       Geyser-Check: true
@@ -2613,6 +2784,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
     Badpackets (30):
       enabled: true
       Geyser-Check: true
@@ -2628,6 +2800,71 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Badpackets
+      use_self_punishable: true
+    Badpackets (26):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Badpackets
+      use_self_punishable: true
+    Badpackets (31):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Badpackets
+      use_self_punishable: true
+    Badpackets (32):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Badpackets
+      use_self_punishable: true
+    Badpackets (33):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Badpackets
+      use_self_punishable: true
   PingSpoof:
     PingSpoof (A):
       enabled: true
@@ -2644,6 +2881,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: PingSpoof
+      use_self_punishable: true
     PingSpoof (B):
       enabled: true
       Geyser-Check: true
@@ -2659,6 +2897,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: PingSpoof
+      use_self_punishable: true
     PingSpoof (C):
       enabled: true
       Geyser-Check: true
@@ -2674,6 +2913,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: PingSpoof
+      use_self_punishable: true
     PingSpoof (D):
       enabled: true
       Geyser-Check: true
@@ -2689,6 +2929,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: PingSpoof
+      use_self_punishable: true
     PingSpoof (E):
       enabled: true
       Geyser-Check: true
@@ -2704,6 +2945,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: PingSpoof
+      use_self_punishable: true
     PingSpoof (G):
       enabled: true
       Geyser-Check: true
@@ -2719,6 +2961,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: PingSpoof
+      use_self_punishable: true
   Inventory:
     Inventory (A):
       enabled: true
@@ -2735,6 +2978,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (B):
       enabled: true
       Geyser-Check: true
@@ -2750,6 +2994,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (C):
       enabled: true
       Geyser-Check: true
@@ -2765,6 +3010,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (D):
       enabled: true
       Geyser-Check: true
@@ -2780,6 +3026,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (E):
       enabled: true
       Geyser-Check: true
@@ -2795,6 +3042,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (F):
       enabled: true
       Geyser-Check: true
@@ -2810,6 +3058,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (G):
       enabled: true
       Geyser-Check: true
@@ -2825,6 +3074,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (H):
       enabled: true
       Geyser-Check: true
@@ -2840,6 +3090,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (I):
       enabled: true
       Geyser-Check: true
@@ -2855,6 +3106,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (J):
       enabled: true
       Geyser-Check: true
@@ -2870,6 +3122,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (K):
       enabled: true
       Geyser-Check: true
@@ -2885,6 +3138,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (L):
       enabled: true
       Geyser-Check: true
@@ -2900,6 +3154,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (M):
       enabled: true
       Geyser-Check: true
@@ -2915,6 +3170,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (N):
       enabled: true
       Geyser-Check: true
@@ -2930,6 +3186,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
     Inventory (O):
       enabled: true
       Geyser-Check: true
@@ -2945,6 +3202,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Inventory
+      use_self_punishable: true
   AutoClicker:
     AutoClicker (A):
       enabled: true
@@ -2963,6 +3221,7 @@ checks:
       Display: AutoClicker
       Settings:
         Max: 27
+      use_self_punishable: true
     AutoClicker (B):
       enabled: true
       Geyser-Check: true
@@ -2980,6 +3239,25 @@ checks:
       Display: AutoClicker
       Settings:
         MaxRightCps: 15
+      use_self_punishable: true
+    AutoClicker (C):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: AutoClicker
+      Settings:
+        Max: 30
+      use_self_punishable: true
   Scaffold:
     Scaffold (A):
       enabled: true
@@ -2996,6 +3274,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (B):
       enabled: true
       Geyser-Check: true
@@ -3011,6 +3290,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (C):
       enabled: true
       Geyser-Check: true
@@ -3026,6 +3306,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (D):
       enabled: true
       Geyser-Check: true
@@ -3041,6 +3322,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (E):
       enabled: true
       Geyser-Check: true
@@ -3056,6 +3338,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (F):
       enabled: true
       Geyser-Check: true
@@ -3071,6 +3354,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (G):
       enabled: true
       Geyser-Check: true
@@ -3086,6 +3370,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (H):
       enabled: true
       Geyser-Check: true
@@ -3101,6 +3386,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (I):
       enabled: true
       Geyser-Check: true
@@ -3116,6 +3402,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (J):
       enabled: true
       Geyser-Check: true
@@ -3131,6 +3418,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (K):
       enabled: true
       Geyser-Check: true
@@ -3146,6 +3434,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (L):
       enabled: true
       Geyser-Check: true
@@ -3161,6 +3450,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (M):
       enabled: true
       Geyser-Check: true
@@ -3176,6 +3466,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (N):
       enabled: true
       Geyser-Check: true
@@ -3191,6 +3482,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (O):
       enabled: true
       Geyser-Check: true
@@ -3206,6 +3498,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (P):
       enabled: true
       Geyser-Check: true
@@ -3221,6 +3514,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (Q):
       enabled: true
       Geyser-Check: true
@@ -3236,6 +3530,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (R):
       enabled: true
       Geyser-Check: true
@@ -3251,6 +3546,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (S):
       enabled: true
       Geyser-Check: true
@@ -3266,6 +3562,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (T):
       enabled: true
       Geyser-Check: true
@@ -3281,6 +3578,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (U):
       enabled: true
       Geyser-Check: true
@@ -3296,6 +3594,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (V):
       enabled: true
       Geyser-Check: true
@@ -3311,6 +3610,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (W):
       enabled: true
       Geyser-Check: true
@@ -3326,6 +3626,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (X):
       enabled: true
       Geyser-Check: true
@@ -3341,6 +3642,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (Y):
       enabled: true
       Geyser-Check: true
@@ -3356,6 +3658,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (Z):
       enabled: true
       Geyser-Check: true
@@ -3371,6 +3674,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (1):
       enabled: true
       Geyser-Check: true
@@ -3386,6 +3690,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (2):
       enabled: true
       Geyser-Check: true
@@ -3401,6 +3706,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (3):
       enabled: true
       Geyser-Check: true
@@ -3416,6 +3722,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (4):
       enabled: true
       Geyser-Check: true
@@ -3431,6 +3738,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (5):
       enabled: true
       Geyser-Check: true
@@ -3446,6 +3754,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (6):
       enabled: true
       Geyser-Check: true
@@ -3461,6 +3770,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (7):
       enabled: true
       Geyser-Check: true
@@ -3476,6 +3786,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (8):
       enabled: true
       Geyser-Check: true
@@ -3491,6 +3802,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (9):
       enabled: true
       Geyser-Check: true
@@ -3506,6 +3818,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (10):
       enabled: true
       Geyser-Check: true
@@ -3521,6 +3834,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (11):
       enabled: true
       Geyser-Check: true
@@ -3536,6 +3850,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (12):
       enabled: true
       Geyser-Check: true
@@ -3551,6 +3866,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (13):
       enabled: true
       Geyser-Check: true
@@ -3566,6 +3882,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (14):
       enabled: true
       Geyser-Check: true
@@ -3581,6 +3898,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
     Scaffold (15):
       enabled: true
       Geyser-Check: true
@@ -3596,6 +3914,88 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+      use_self_punishable: true
+    Scaffold (16):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Scaffold
+      use_self_punishable: true
+    Scaffold (17):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Scaffold
+      use_self_punishable: true
+    Scaffold (18):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Scaffold
+      use_self_punishable: true
+    Scaffold (19):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Scaffold
+      use_self_punishable: true
+  Crash:
+    Crash (A):
+      enabled: false
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Crash
+      use_self_punishable: true
   Speed:
     Speed (A):
       enabled: true
@@ -3612,6 +4012,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Speed
+      use_self_punishable: true
     Speed (B):
       enabled: true
       Geyser-Check: true
@@ -3627,6 +4028,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Speed
+      use_self_punishable: true
     Speed (C):
       enabled: true
       Geyser-Check: true
@@ -3644,6 +4046,7 @@ checks:
       Display: Speed
       Settings:
         Offsets: 0.001
+      use_self_punishable: true
     Speed (D):
       enabled: true
       Geyser-Check: true
@@ -3659,6 +4062,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Speed
+      use_self_punishable: true
   Timer:
     Timer (A):
       enabled: true
@@ -3677,6 +4081,7 @@ checks:
       Display: Timer
       Settings:
         Max: 1.05
+      use_self_punishable: true
     Timer (B):
       enabled: true
       Geyser-Check: true
@@ -3692,6 +4097,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Timer
+      use_self_punishable: true
     Timer (C):
       enabled: true
       Geyser-Check: true
@@ -3707,6 +4113,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Timer
+      use_self_punishable: true
     Timer (D):
       enabled: true
       Geyser-Check: true
@@ -3722,6 +4129,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Timer
+      use_self_punishable: true
     Timer (E):
       enabled: true
       Geyser-Check: true
@@ -3737,6 +4145,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Timer
+      use_self_punishable: true
   Invaild:
     Invaild (A):
       enabled: true
@@ -3753,6 +4162,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Invaild
+      use_self_punishable: true
     Invaild (B):
       enabled: true
       Geyser-Check: true
@@ -3768,6 +4178,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Invaild
+      use_self_punishable: true
     Invaild (C):
       enabled: true
       Geyser-Check: true
@@ -3783,6 +4194,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Invaild
+      use_self_punishable: true
     Invaild (D):
       enabled: true
       Geyser-Check: true
@@ -3798,6 +4210,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Invaild
+      use_self_punishable: true
     Invaild (E):
       enabled: true
       Geyser-Check: true
@@ -3813,6 +4226,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Invaild
+      use_self_punishable: true
   CheatSteal:
     CheatSteal (A):
       enabled: true
@@ -3829,6 +4243,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: CheatSteal
+      use_self_punishable: true
     CheatSteal (B):
       enabled: true
       Geyser-Check: true
@@ -3844,6 +4259,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: CheatSteal
+      use_self_punishable: true
   Noslow:
     Noslow (A):
       enabled: true
@@ -3860,6 +4276,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Noslow
+      use_self_punishable: true
     Noslow (B):
       enabled: true
       Geyser-Check: true
@@ -3875,6 +4292,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Noslow
+      use_self_punishable: true
     Noslow (C):
       enabled: true
       Geyser-Check: true
@@ -3890,6 +4308,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Noslow
+      use_self_punishable: true
     Noslow (D):
       enabled: true
       Geyser-Check: true
@@ -3905,6 +4324,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Noslow
+      use_self_punishable: true
     Noslow (E):
       enabled: true
       Geyser-Check: true
@@ -3920,6 +4340,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Noslow
+      use_self_punishable: true
     Noslow (F):
       enabled: true
       Geyser-Check: true
@@ -3935,6 +4356,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Noslow
+      use_self_punishable: true
     Noslow (G):
       enabled: true
       Geyser-Check: true
@@ -3950,6 +4372,55 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Noslow
+      use_self_punishable: true
+    Noslow (H):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Noslow
+      use_self_punishable: true
+    Noslow (I):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Noslow
+      use_self_punishable: true
+    Noslow (J):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Noslow
+      use_self_punishable: true
   Velocity:
     Velocity (A):
       enabled: true
@@ -3966,6 +4437,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Velocity
+      use_self_punishable: true
     Velocity (B):
       enabled: true
       Geyser-Check: true
@@ -3981,6 +4453,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Velocity
+      use_self_punishable: true
     Velocity (C):
       enabled: true
       Geyser-Check: true
@@ -3996,6 +4469,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Velocity
+      use_self_punishable: true
     Velocity (D):
       enabled: true
       Geyser-Check: true
@@ -4013,6 +4487,7 @@ checks:
       Display: Velocity
       Settings:
         threshold: 0.25
+      use_self_punishable: true
   Fly:
     Fly (A):
       enabled: true
@@ -4029,3 +4504,4 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Fly
+      use_self_punishable: true
