@@ -3979,6 +3979,22 @@ checks:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
       use_self_punishable: true
+    Scaffold (20):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Scaffold
   Crash:
     Crash (A):
       enabled: false
@@ -4146,6 +4162,22 @@ checks:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Timer
       use_self_punishable: true
+    Timer (F):
+      enabled: true
+      Geyser-Check: true
+      Cancel: false
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Timer
   Invaild:
     Invaild (A):
       enabled: true
@@ -4262,7 +4294,7 @@ checks:
       use_self_punishable: true
   Noslow:
     Noslow (A):
-      enabled: true
+      enabled: false
       Geyser-Check: true
       Cancel: false
       Improbable: true
@@ -4278,7 +4310,7 @@ checks:
       Display: Noslow
       use_self_punishable: true
     Noslow (B):
-      enabled: true
+      enabled: false
       Geyser-Check: true
       Cancel: false
       Improbable: true
@@ -4294,7 +4326,7 @@ checks:
       Display: Noslow
       use_self_punishable: true
     Noslow (C):
-      enabled: true
+      enabled: false
       Geyser-Check: true
       Cancel: false
       Improbable: true
@@ -4310,7 +4342,7 @@ checks:
       Display: Noslow
       use_self_punishable: true
     Noslow (D):
-      enabled: true
+      enabled: false
       Geyser-Check: true
       Cancel: false
       Improbable: true
@@ -4326,7 +4358,7 @@ checks:
       Display: Noslow
       use_self_punishable: true
     Noslow (E):
-      enabled: true
+      enabled: false
       Geyser-Check: true
       Cancel: false
       Improbable: true
@@ -4342,7 +4374,7 @@ checks:
       Display: Noslow
       use_self_punishable: true
     Noslow (F):
-      enabled: true
+      enabled: false
       Geyser-Check: true
       Cancel: false
       Improbable: true
