@@ -63,12 +63,17 @@ Setting:
     - kick %player% &7[&bSpiter&7] &CUnfair Advantage
 CheckSetting:
   Reach:
-    Level-(1,2,3,4): 3
+    Level-(1,2,3,4): 2
     #reach的buffer等级，越低误报可能越多？效果越好，越高越沉稳
 Check:
   Cancel:
     AttackLevel: 0.6
     #减少为多少的伤害， newdamage = damage * 0.6 
+    move:
+      morevel:
+        x: 0.25
+        y: 0.25
+        z: 0.25
 Database:
   enable: false
   #暂时没有写好，不要开启
