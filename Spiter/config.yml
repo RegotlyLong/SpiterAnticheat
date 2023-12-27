@@ -16,10 +16,11 @@ Setting:
   #是否开启spiter.bypass权限
   Ghostblockcheck:
     Enabled: true
-    Ghostblocksetback: true
     changeblock:
+    #开启可以在1.16版本一下的服务端中自动更新玩家的ghost方块
       Enabled: true
-      #开启可以在1.16版本一下的服务端中自动更新玩家的ghost方块
+    Ghostblocksetback: true
+      
   Phase:
     setback: true
   Alerts:
@@ -64,6 +65,10 @@ CheckSetting:
   Reach:
     Level-(1,2,3,4): 3
     #reach的buffer等级，越低误报可能越多？效果越好，越高越沉稳
+Check:
+  Cancel:
+    AttackLevel: 0.6
+    #减少为多少的伤害， newdamage = damage * 0.6 
 Database:
   enable: false
   #暂时没有写好，不要开启
