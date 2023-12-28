@@ -72,8 +72,11 @@ Check:
     #减少为多少的伤害， newdamage = damage * 0.6 
     move:
       morevel:
+      #获得更多的velcoty - 在被生物攻击的时候
         magnification: 1.25
+        #增加1.25倍率
         custom:
+        #是否开启自定义模式
           enable: false
           x: 0.45
           y: 0.3
