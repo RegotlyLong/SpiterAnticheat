@@ -73,7 +73,10 @@ Check:
     move:
       morevel:
       #获得更多的velcoty - 在被生物攻击的时候
-        magnification: 1.25
+        magnification:
+          x: 1.5
+          y: 1.0
+          z: 1.5
         #增加1.25倍率
         custom:
         #是否开启自定义模式
