@@ -8,7 +8,6 @@ Setting:
       heights: 3.0
       duration: 10
       invisible: true
-      
   NotSendPacket:
     Trs-C0f: false
     #可能增加网络io
@@ -61,19 +60,24 @@ Setting:
   ForceBan:
     Commands:
     - kick %player% &7[&bSpiter&7] &CUnfair Advantage
-CheckSetting:
+
+Check:
   Reach:
     Level-(1,2,3,4): 2
     #reach的buffer等级，越低误报可能越多？效果越好，越高越沉稳
-Check:
+  Packetevent:
+    LevelLow: false
   Cancel:
     AttackLevel: 0.6
     #减少为多少的伤害， newdamage = damage * 0.6 
     move:
       morevel:
-        x: 0.25
-        y: 0.25
-        z: 0.25
+        magnification: 1.25
+        custom:
+          enable: false
+          x: 0.45
+          y: 0.3
+          z: 0.45
 Database:
   enable: false
   #暂时没有写好，不要开启
@@ -124,7 +128,7 @@ System:
   #可能造成无意义的能耗
   Logs-Use-Temp-File: true
   #开启可以在同一机器上面看到同一玩家的logs信息
-  API: false
+  API: true
   #是否启用API
   Haste-Server: paste.md-5.net
 Freeze:
@@ -173,7 +177,8 @@ Message:
     - ''
     - '%debug%'
     - ''
-    - '&7(&fPing: &7%ping%  &fTps: &a%tps% &f(V%version%)&7) &a(Click to teleport)'
+    - '&7(&fPing: &7%ping%  &fTps: &a%tps% &f(V%version%) - &b[%client%] &7)'
+    - '&a(Click to teleport)'
   Verbose: '&7[&bVerbose&7] &f%player% &7| &r&f%checkName% &f%checkType% &7| &f%buffer%%'
   PUNISHMENTS:
     Message:
