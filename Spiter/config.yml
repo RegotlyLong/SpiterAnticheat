@@ -1,7 +1,7 @@
 # Spiter AntiCheat - Config
 Setting:
   Bungeemode: false
-  #可能增加cpu计算
+  #可能增加cpu计算,开启后可以与BC进行通信
   Bot:
     Spawn:
       distance: 1.8
@@ -9,6 +9,7 @@ Setting:
       duration: 10
       invisible: true
   NotSendPacket:
+  #Spiter不发送任何c0f和keepalive
     Trs-C0f: false
     #可能增加网络io
   Check-bypass: false
@@ -16,10 +17,9 @@ Setting:
   Ghostblockcheck:
     Enabled: true
     changeblock:
-    #开启可以在1.16版本一下的服务端中自动更新玩家的ghost方块
+    #开启可以在1.16版本以下的服务端中自动更新玩家的ghost方块
       Enabled: true
     Ghostblocksetback: true
-      
   Phase:
     setback: true
   Alerts:
