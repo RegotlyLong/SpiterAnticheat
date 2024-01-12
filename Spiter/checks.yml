@@ -1120,7 +1120,7 @@ checks:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
     KillAura (I):
-      enabled: true
+      enabled: false
       Geyser-Check: true
       Improbable: true
       autoban: false
@@ -1563,6 +1563,63 @@ checks:
       Display: KillAura
   Heuristic:
     Heuristic (A):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Heuristic
+    Heuristic (B):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Heuristic
+      Settings:
+        HeuristicCheck:
+          A: true
+          B: true
+          c: true
+    Heuristic (C):
       enabled: true
       Geyser-Check: true
       Improbable: true
