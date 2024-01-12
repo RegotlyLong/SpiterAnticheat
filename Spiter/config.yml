@@ -84,6 +84,44 @@ Check:
           x: 0.45
           y: 0.3
           z: 0.45
+Check:
+  Reach:
+    Level-(1,2,3,4): 2
+  Packetevent:
+    LevelLow: false
+  trs:
+    polarsend: true
+  Cancel:
+    AttackLevel: 0.6
+    move:
+      morevel:
+        magnification:
+          x: 1.5
+          y: 1.0
+          z: 1.5
+        custom:
+          enable: false
+          x: 0.45
+          y: 0.3
+          z: 0.45
+  Brand:
+    Enabled: true
+    Command: /tp %player%
+  Client:
+    Detect-Vape: true
+    Detect-Lite: true
+    Blocker-Enabled: false
+    Blocked-Brands:
+    - CM-Pack
+    - Blazing-Pack
+    - Crystalware
+    - Vivecraft
+  Heuristic:
+    A:
+      Fastcheck: false
+      #是否让启发式AI检测工作速度快一点
+    C:
+      Fastcheck: false
 Database:
   enable: false
   #暂时没有写好，不要开启
@@ -148,21 +186,6 @@ OPTIONS:
   Processing:
   #不要动
     Better-Buffer: true
-Check:
-  Brand:
-    Enabled: true
-    #可能增加能耗
-    Command: /tp %player%
-  Client:
-  #开启客户端检测
-    Detect-Vape: true
-    Detect-Lite: true
-    Blocker-Enabled: false
-    Blocked-Brands:
-    - CM-Pack
-    - Blazing-Pack
-    - Crystalware
-    - Vivecraft
 Message:
   Check:
     Brand:
