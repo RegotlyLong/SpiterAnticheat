@@ -123,10 +123,10 @@ Check:
     C:
       Fastcheck: false
 Database:
+#可以使用了
   enable: false
-  #暂时没有写好，不要开启
   host: 127.0.0.1
-  port: 12345
+  port: 27017
   database: database
   authentication:
     enable: false
