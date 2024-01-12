@@ -124,8 +124,7 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Hitbox
-  HitBox:
-    HitBox (B):
+    Hitbox (B):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -150,7 +149,7 @@ checks:
           placeblock: false
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: HitBox
+      Display: Hitbox
   Delay:
     Delay (A):
       enabled: true
@@ -860,6 +859,58 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+    KillAura (2):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: KillAura
+    KillAura (3):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: KillAura
     KillAura (A):
       enabled: true
       Geyser-Check: true
@@ -1510,6 +1561,33 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: KillAura
+  Heuristic:
+    Heuristic (A):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Heuristic
   Post:
     Post (A):
       enabled: true
@@ -3020,33 +3098,6 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Aim
-  Groundspoof:
-    Groundspoof (A):
-      enabled: true
-      Geyser-Check: true
-      Improbable: true
-      autoban: false
-      use_self_punishable: true
-      punish-vl: 8
-      Maximum-Tps: -1
-      Maximum-Ping: -1
-      Max-buffer: -1.0
-      Increase-buffer: -1.0
-      Decreased-buffer: -1.0
-      cancel:
-        enable: false
-        attack:
-          damage: false
-          redudamage: false
-        move:
-          motion: false
-          get-more-vel: false
-        action:
-          break: false
-          placeblock: false
-      Commands:
-      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: Groundspoof
   Improbable:
     Improbable (A):
       enabled: true
@@ -3101,6 +3152,58 @@ checks:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Improbable
     Improbable (C):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Improbable
+    Improbable (D):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Improbable
+    Improbable (E):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -4896,6 +4999,86 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: PingSpoof
+    PingSpoof (I):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: PingSpoof
+    PingSpoof (J):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: PingSpoof
+    PingSpoof (K):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: PingSpoof
+      Settings:
+        threshold: 1.3
   Inventory:
     Inventory (A):
       enabled: true
@@ -6569,6 +6752,84 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Scaffold
+    Scaffold (21):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Scaffold
+    Scaffold (22):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Scaffold
+    Scaffold (23):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Scaffold
   Crash:
     Crash (A):
       enabled: true
@@ -6862,8 +7123,8 @@ checks:
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Timer
-  Invaild:
-    Invaild (A):
+  Invalid:
+    Invalid (A):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -6888,8 +7149,8 @@ checks:
           placeblock: false
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: Invaild
-    Invaild (B):
+      Display: Invalid
+    Invalid (B):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -6914,8 +7175,8 @@ checks:
           placeblock: false
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: Invaild
-    Invaild (C):
+      Display: Invalid
+    Invalid (C):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -6940,8 +7201,8 @@ checks:
           placeblock: false
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: Invaild
-    Invaild (D):
+      Display: Invalid
+    Invalid (D):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -6966,8 +7227,8 @@ checks:
           placeblock: false
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: Invaild
-    Invaild (E):
+      Display: Invalid
+    Invalid (E):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -6992,9 +7253,8 @@ checks:
           placeblock: false
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: Invaild
-  CheatSteal:
-    CheatSteal (A):
+      Display: Invalid
+    Invalid (F):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -7019,8 +7279,8 @@ checks:
           placeblock: false
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: CheatSteal
-    CheatSteal (B):
+      Display: Invalid
+    Invalid (G):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -7045,8 +7305,9 @@ checks:
           placeblock: false
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: CheatSteal
-    CheatSteal (C):
+      Display: Invalid
+  Sprint:
+    Sprint (A):
       enabled: true
       Geyser-Check: true
       Improbable: true
@@ -7071,7 +7332,86 @@ checks:
           placeblock: false
       Commands:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
-      Display: CheatSteal
+      Display: Sprint
+  ChestSteal:
+    ChestSteal (A):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: ChestSteal
+    ChestSteal (B):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: ChestSteal
+    ChestSteal (C):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: ChestSteal
   Noslow:
     Noslow (A):
       enabled: true
@@ -7308,6 +7648,32 @@ checks:
       - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
       Display: Noslow
     Noslow (J):
+      enabled: true
+      Geyser-Check: true
+      Improbable: true
+      autoban: false
+      use_self_punishable: true
+      punish-vl: 8
+      Maximum-Tps: -1
+      Maximum-Ping: -1
+      Max-buffer: -1.0
+      Increase-buffer: -1.0
+      Decreased-buffer: -1.0
+      cancel:
+        enable: false
+        attack:
+          damage: false
+          redudamage: false
+        move:
+          motion: false
+          get-more-vel: false
+        action:
+          break: false
+          placeblock: false
+      Commands:
+      - ban %player% 7d %prefix%&cUnfair Advantage &7[%id%]
+      Display: Noslow
+    Noslow (K):
       enabled: true
       Geyser-Check: true
       Improbable: true
