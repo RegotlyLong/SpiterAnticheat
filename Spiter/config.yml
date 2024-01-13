@@ -1,45 +1,69 @@
-# Spiter AntiCheat - Config
+# 
+# 
+#  .oooooo..o             o8o      .                         
+# d8P'    `Y8             `"'    .o8                         
+# Y88bo.      oo.ooooo.  oooo  .o888oo  .ooooo.  oooo d8b    
+#  `"Y8888o.   888' `88b `888    888   d88' `88b `888""8P    
+#      `"Y88b  888   888  888    888   888ooo888  888        
+# oo     .d8P  888   888  888    888 . 888    .o  888        
+# 8""88888P'   888bod8P' o888o   "888" `Y8bod8P' d888b       
+#              888                                           
+#             o888o                                          
+# 
+#       .o.                       .    o8o    .oooooo.   oooo                                .   
+#      .888.                    .o8    `"'   d8P'  `Y8b  `888                              .o8   
+#     .8"888.     ooo. .oo.   .o888oo oooo  888           888 .oo.    .ooooo.   .oooo.   .o888oo 
+#    .8' `888.    `888P"Y88b    888   `888  888           888P"Y88b  d88' `88b `P  )88b    888   
+#   .88ooo8888.    888   888    888    888  888           888   888  888ooo888  .oP"888    888   
+#  .8'     `888.   888   888    888 .  888  `88b    ooo   888   888  888    .o d8(  888    888 . 
+# o88o     o8888o o888o o888o   "888" o888o  `Y8bood8P'  o888o o888o `Y8bod8P' `Y888""8o   "888" 
+# 
+# Spiter AntiCheat configuration
+# Documentation: https://docs.spiter.cc/
+# KOOK: https://kook.top/fyLlw2
+# QQ Group: 759357642
+# 
+# Thanks for using Spiter Anticheat!  |  Regotly
+#
+#
 Setting:
+  #
+  #开启BC通信的功能
+  #Enable BC communications
+  #
   Bungeemode: false
-  #可能增加cpu计算,开启后可以与BC进行通信
-  Bot:
-    Spawn:
-      distance: 1.8
-      heights: 3.0
-      duration: 10
-      invisible: true
+  #Spiter不发送任何的Trs和Keepalive包（会导致所有延迟检测工作不正常）
+  #Spiter does not send any Trs and Keepalive packets 
+  #(which causes all delay detection to work improperly)
+  #
   NotSendPacket:
-  #Spiter不发送任何c0f和keepalive
     Trs-C0f: false
-    #可能增加网络io
+  #
+  #是否启用spiter.bypass
+  #Whether or not to enable spiter.bypass
+  #
   Check-bypass: false
-  #是否开启spiter.bypass权限
-  Ghostblockcheck:
-    Enabled: true
-    changeblock:
-    #开启可以在1.16版本以下的服务端中自动更新玩家的ghost方块
-      Enabled: true
-    Ghostblocksetback: true
-  Phase:
-    setback: true
   Alerts:
+  #
+  # Whether to turn on experimental detection
+  #Whether not to send alerts when the server is stuck (to minimize false positives due to server stuckness)
+  #Whether to enable experimental detection
+  #Whether to refresh when vl is full.
+  #
     Experimental-VL-Add: true
     not-alerts-inLag: true
-    #关闭可能增加误报
     Allow-Developmental: true
     join-on: true
-    #加入开启alerts
     Reset-VL-On-Max: true
-    #是否在vl满的时候清除
     CoolDown: 5.0
     JoinBypass: 5000
-    vlreset-time (s): 300
+    vlreset-time (s): 450
+    #生存模式检测
     Survival-check: true
-    #是否开启生存模式检查
+    #创造模式检测
     Creating-check: false
-    #是否开启创造模式检查
+    #旁观者模式检测
     Bystander-detection: false
-    #是否开启观察者模式检测
     Command: /tp %player%
     Debug-Color: '&7'
     Experimental: '&aΔ'
@@ -53,44 +77,33 @@ Setting:
   Punishment:
     Message:
       Enabled: false
+      #是否启用全局模式下的封禁系统
     AllCheck:
       Enabled: false
       Commands:
       - kick %player% &7[&bSpiter&7] &CUnfair Advantage
   ForceBan:
+  #forceban指令执行什么命令
     Commands:
     - kick %player% &7[&bSpiter&7] &CUnfair Advantage
-
 Check:
   Reach:
-    Level-(1,2,3,4): 2
-    #reach的buffer等级，越低误报可能越多？效果越好，越高越沉稳
+  # 检测强度，最高为1，最低为4，最高越强，但是误报++
+    Level-(1,2,3,4): 3
+  autoblock:
+    cancel:
+      Illegal_Block: true
+      highversion_autoblock: false
+  Heuristic:
+    A:
+      Fastcheck: false
+    C:
+      Fastcheck: false
   Packetevent:
-    LevelLow: false
-  Cancel:
-    AttackLevel: 0.6
-    #减少为多少的伤害， newdamage = damage * 0.6 
-    move:
-      morevel:
-      #获得更多的velcoty - 在被生物攻击的时候
-        magnification:
-          x: 1.5
-          y: 1.0
-          z: 1.5
-        #增加1.25倍率
-        custom:
-        #是否开启自定义模式
-          enable: false
-          x: 0.45
-          y: 0.3
-          z: 0.45
-Check:
-  Reach:
-    Level-(1,2,3,4): 2
-  Packetevent:
+  #让packetevent的优先级降为最低 （抢intave的发包）
     LevelLow: false
   trs:
-    polarsend: true
+    polarsend: false
   Cancel:
     AttackLevel: 0.6
     move:
@@ -104,6 +117,19 @@ Check:
           x: 0.45
           y: 0.3
           z: 0.45
+  Ghostblockcheck:
+    Enabled: true
+    changeblock:
+      Enabled: true
+    Ghostblocksetback: true
+  Phase:
+    setback: true
+  Bot:
+    Spawn:
+      distance: 1.8
+      heights: 3.0
+      duration: 10
+      invisible: true
   Brand:
     Enabled: true
     Command: /tp %player%
@@ -116,14 +142,8 @@ Check:
     - Blazing-Pack
     - Crystalware
     - Vivecraft
-  Heuristic:
-    A:
-      Fastcheck: false
-      #是否让启发式AI检测工作速度快一点
-    C:
-      Fastcheck: false
 Database:
-#可以使用了
+#MongoDB
   enable: false
   host: 127.0.0.1
   port: 27017
@@ -137,7 +157,6 @@ Database:
 Command:
   Spiter:
     Help-Command-Customize-Enable: false
-    #是否启用自定义help描述
     Help-Command-Customize:
     - ''
     - '&e| &7/spiter gui &8| &fOpens GUI.'
@@ -151,16 +170,16 @@ Command:
     - '&e| &7/spiter logs (player) &8| &fShows the logs of a player.'
     - '&e| &7/spiter reload &8| &fReloads configuration.'
     Name: Spiter
-    #自定义名称
     commands:
-    #自定义command
     - spiter
     commandtabName: tab
     commandtab:
     - aac
     - grim
     - buzz
-    #假的命令tab
+    - polar
+    - karhu
+    - intave
 Spiter:
   Description: Securing fair play, one check at a time with Spiter AntiCheat
   Version: '3.1'
@@ -168,23 +187,21 @@ Spiter:
   Authors:
   - Regotly
 System:
+  #是否堆积垃圾
   Alerts-Logs-In-Console: true
-  #可能造成无意义的能耗
+  #是否使用临时文件夹来存储logs信息 （用于单服务器机器所有子服的logs收集）
   Logs-Use-Temp-File: true
-  #开启可以在同一机器上面看到同一玩家的logs信息
-  API: true
   #是否启用API
+  API: true
   Haste-Server: paste.md-5.net
 Freeze:
   message-enable: true
-  #是否启用冻结命令
   player-quit-command:
     enable: true
     command:
     - 'kick %player% %prefix%&cInvalid client brand: &7%brand%'
 OPTIONS:
   Processing:
-  #不要动
     Better-Buffer: true
 Message:
   Check:
@@ -222,25 +239,22 @@ Message:
     - '%prefix%&bSpiter &7has banned &b%bans% &7players in the last &b15 &7minutes.'
     - '&7&m--------------------------------------------------'
   Network-settings:
-    kick-message: 'java.net.IOException Connection timed out: no further information'
-    transaction-delay: '&c%player% &7Skipped the trading package.'
-    cancel-keepalives-alert: '&c%player% &7cancelled keepalive packets with total
-      of &a%invalid% / %total%'
-    cancel-transactions-alert: '&c%player% &7cancelled transaction packets with total
-      of &a%invalid% / %total%'
-    own-keepalives-alert: '&c%player% &7sent skip keepalives &7total of &a%invalid%
-      / %total%'
-    own-transactions-alert: '&c%player% &7sent skip transactions &7total of &a%invalid%
-      / %total%'
-    cancel-and-own-kick-message: 'java.net.IOException Connection timed out: no further
-      information'
-    wrong-spoof-kick-message: Timed out.
+    kick-message: Unstable Connection
+    transaction-delay: '&c%player% &7Unstable Connection (&eTrans&7).'
+    cancel-keepalives-alert: '&c%player% &7Unstable Connection (&eKeepalive&7)'
+    cancel-transactions-alert: '&c%player% &7Unstable Connection (&eTransaction&7)'
+    own-keepalives-alert: '&c%player% &7Unstable Connection (&eKeepalive&7)'
+    own-transactions-alert: '&c%player% &7Unstable Connection (&eTransaction&7)'
+    cancel-and-own-kick-message: Unstable Connection
+    wrong-spoof-kick-message: Unstable Connection
   server-lag-protection:
     warning-message: '%prefix% &cThe Server is Lag?'
     max-tick-length: 120
   freeze:
-    getbanned-message: '%prefix% &c%player% &f被Staff查端但退出了游戏所以被封禁.'
-    sendplayer-message: '&f请加StaffQQ xxxxxxx 进行查端 - 退出游戏将封禁'
+    getbanned-message: '%prefix% &c%player% &fBanned for being checked by Staff but
+      quitting the game.'
+    sendplayer-message: '&fPlease add Staff QQ xxxxxxxxx for checking - Exit the game
+      will be banned!'
 BROADCAST:
   Enabled: true
   Reset-Counter: true
@@ -251,13 +265,7 @@ BROADCAST:
   Time: 18000
   Sound: NONE
 Network-settings:
-#无需打开，Pingspoof检测
+#无需开启，Pingspoof会检测
   enabled: false
   SpoofPacket: false
   DelayPacket: false
-Option:
-  Check:
-    autoblockcancel: false
-    #是否cancel无意义的ab，参考intave
-    cancel-highversion-autoblock: false
-    #是否cancel高版本ab，减少高版本ab绕过
