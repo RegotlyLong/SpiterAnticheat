@@ -90,10 +90,27 @@ Check:
   Reach:
   # 检测强度，最高为1，最低为4，最高越强，但是误报++
     Level-(1,2,3,4): 3
+# 限制和阻止作弊者利用延迟扩大攻击范围的安全措施
+# 通过连接暂停或延迟，人为地拉近目标距离
+# 以获得战斗优势。
+# 建议默认启用此功能。
+  blink:
+    prevention_tolerance_cancel: true
+#运行Spiter阻止战斗作弊者，让可能正常的玩家获得优势
+  combat:
+    prevention_tolerance_reducedamage: true
   autoblock:
     cancel:
       Illegal_Block: true
       highversion_autoblock: false
+  #cps限制检测
+  # 每秒允许玩家点击多少次。
+  # 建议保持在 30 次以下，以防滥用。
+  cps:
+    # It is recommended to keep this below 26 to prevent abuse.
+    left_limit: 25
+    # It is recommended to keep this below 30 to prevent abuse.
+    right_limit: 40
   Heuristic:
     A:
       Fastcheck: false
@@ -125,6 +142,7 @@ Check:
   Phase:
     setback: true
   Bot:
+    Enable: true
     Spawn:
       distance: 1.8
       heights: 3.0
