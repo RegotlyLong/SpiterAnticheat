@@ -234,8 +234,8 @@ Message:
       Blocker-Command:
       - 'kick %player% %prefix%&cInvalid client brand: &7%brand%'
   Alerts:
-    Layout: '%prefix%&f%player% &7failed &f%checkName%&7(&f%checkType%&7) &c%bar%
-      %tags%'
+    Layout: '%prefix% &7> &3%player% &8| &f%checkName%&7(&f%checkType%&7)&c%bar% &8|
+      &3x%vl%  %tags%'
     Hover:
     - '&f%description%'
     - ''
