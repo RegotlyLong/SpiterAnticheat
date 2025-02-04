@@ -1,28 +1,33 @@
 # SpiterAnticheat
-Start：https://spiter.gitbook.io/spiter
-中文
-欢迎使用Spiter
-在这里，您可以找到常见问题解答、设置指南和我们的API文档
 
-你需要一点帮助？
-加入QQ群和Discord或者KOOK。
-KOOK: https://kook.top/fyLlw2
-
-Discord: https://discord.gg/p4epGCvwkp
-
-QQ Group: 759357642
-# 目前不看kook和discord信息，请你使用qq联系我
-
-英文
-Welcome to Spiter Docs
-Here you can find answers to FAQ, setup guide and our API documentation
-
-Need a little help?
-Discord: https://discord.gg/p4epGCvwkp
-
-QQ Group: 759357642
-
-This is where you'll find me.
+#Start：https://spiter.gitbook.io/spiter
+---
+>中文
+>
+>欢迎使用Spiter
+>
+>在这里，您可以找到常见问题解答、设置指南和我们的API文档
+>
+>你需要一点帮助？
+>加入QQ群和Discord或者KOOK。
+>
+>KOOK: https://kook.top/fyLlw2
+>
+>Discord: https://discord.gg/p4epGCvwkp
+>
+>QQ Group: 759357642
+># 目前不看kook和discord信息，请你使用qq联系我
+>
+>英文
+>Welcome to Spiter Docs
+>Here you can find answers to FAQ, setup guide and our API documentation
+>
+>Need a little help?
+>Discord: https://discord.gg/p4epGCvwkp
+>
+>QQ Group: 759357642
+>
+>This is where you'll find me.
 ---
 
 ![](libs/main.svg)
